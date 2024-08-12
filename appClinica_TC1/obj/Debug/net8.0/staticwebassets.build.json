@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "ArbrAvGMesLvaDBoGNT4oINvDxGbhdAs2mBSbkTa0oU=",
+  "Source": "appClinica_TC1",
+  "BasePath": "_content/appClinica_TC1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "appClinica_TC1\\wwwroot",
+      "Source": "appClinica_TC1",
+      "ContentRoot": "D:\\Bases de Datos\\Portafolio\\appClinica_TC1\\wwwroot\\",
+      "BasePath": "_content/appClinica_TC1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Bases de Datos\\Portafolio\\appClinica_TC1\\wwwroot\\css\\style.css",
+      "SourceId": "appClinica_TC1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Bases de Datos\\Portafolio\\appClinica_TC1\\wwwroot\\",
+      "BasePath": "_content/appClinica_TC1",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

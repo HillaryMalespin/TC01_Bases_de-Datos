@@ -1,0 +1,23 @@
+@model IEnumerable<appClinica_TC1.Models.Paciente>
+
+<h2>Pacientes</h2>
+<table>
+    <thead>
+        
+    </thead>
+    <tbody>
+        @foreach (var paciente in Model)
+        {
+            <tr>
+                <td>@paciente.Cedula</td>
+                <td>@paciente.Nombre</td>
+                <td>@paciente.FechaNacimiento.ToShortDateString()</td>
+                <td>@paciente.Edad</td>
+                <td>@paciente.Direccion</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<link rel="stylesheet" type="text/css" href="~/css/style.css">
+<a href="@Url.Action("Create")">Agregar Paciente</a>
+<a href="@Url.Action("Index", "Pacientes")">Ver Lista de Pacientes</a>

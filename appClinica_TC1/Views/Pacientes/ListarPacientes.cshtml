@@ -1,0 +1,35 @@
+@model List<appClinica_TC1.Models.Paciente>
+@using appClinica_TC1.Models
+
+<h2>Lista de Pacientes</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var paciente in Model)
+            {
+                <tr>
+                    <td>@paciente.Id</td>
+                    <td>@paciente.Nombre</td>
+                    <td>@paciente.Edad</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No se encontraron pacientes.</td>
+            </tr>
+        }
+    </tbody>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+
+</table>

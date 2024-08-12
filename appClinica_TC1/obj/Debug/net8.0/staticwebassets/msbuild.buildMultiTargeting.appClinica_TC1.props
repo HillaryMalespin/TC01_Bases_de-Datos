@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\appClinica_TC1.props" />
+</Project>

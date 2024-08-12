@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Bases de Datos\\Portafolio\\appClinica_TC1\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.appClinica_TC1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.appClinica_TC1.props",
+      "PackagePath": "build\\appClinica_TC1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.appClinica_TC1.props",
+      "PackagePath": "buildMultiTargeting\\appClinica_TC1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.appClinica_TC1.props",
+      "PackagePath": "buildTransitive\\appClinica_TC1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
